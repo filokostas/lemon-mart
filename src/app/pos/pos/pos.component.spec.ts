@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing'
 
-import { UserManagementComponent } from './user-management.component'
+import { PosComponent } from './pos.component'
 
-describe('UserManagementComponent', () => {
-  let component: UserManagementComponent
-  let fixture: ComponentFixture<UserManagementComponent>
+describe('PosComponent', () => {
+  let component: PosComponent
+  let fixture: ComponentFixture<PosComponent>
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [UserManagementComponent],
+      declarations: [PosComponent],
     }).compileComponents()
   }))
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UserManagementComponent)
+    fixture = TestBed.createComponent(PosComponent)
     component = fixture.componentInstance
     fixture.detectChanges()
   })

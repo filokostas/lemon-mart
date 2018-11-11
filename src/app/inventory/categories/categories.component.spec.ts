@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing'
 
-import { UserManagementComponent } from './user-management.component'
+import { CategoriesComponent } from './categories.component'
 
-describe('UserManagementComponent', () => {
-  let component: UserManagementComponent
-  let fixture: ComponentFixture<UserManagementComponent>
+describe('CategoriesComponent', () => {
+  let component: CategoriesComponent
+  let fixture: ComponentFixture<CategoriesComponent>
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [UserManagementComponent],
+      declarations: [CategoriesComponent],
     }).compileComponents()
   }))
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UserManagementComponent)
+    fixture = TestBed.createComponent(CategoriesComponent)
     component = fixture.componentInstance
     fixture.detectChanges()
   })
